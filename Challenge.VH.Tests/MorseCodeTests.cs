@@ -9,7 +9,7 @@ namespace Challenge.VH.Tests
         public void BasicCases()
         {
             Assert.AreEqual(new string[] { "E" }, MorseCode.Possibilities("."));
-            Assert.AreEqual(new string[] { "D" }, MorseCode.Possibilities(".-"));
+            Assert.AreEqual(new string[] { "D" }, MorseCode.Possibilities("-.."));
         }
 
         [Test]
